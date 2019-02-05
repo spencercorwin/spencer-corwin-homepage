@@ -1,32 +1,234 @@
-.App {
-  text-align: center;
+html {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 60px;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.body-container {
+  width: 100%;
+  height: 100%;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.body {
+  width: 1300px;
+  max-width: 85%;
+  margin: auto;
+  text-align: left;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+.light-body {
+  background-color: white;
+  color: black;
+}
+
+.dark-body {
+  background-color: #121212;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#h1-title {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tagline-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  margin-top: -10px;
+}
+
+.toggle-button {
+  display: block;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border-radius: 0;
+  border: none;
+}
+
+.toggle-button-dark {
+  background-color: rgba(128, 128, 128, 0.068);
+  color: black;
+}
+
+.toggle-button-dark:hover {
+  background-color: rgba(128, 128, 128, 0.548);
+}
+
+.toggle-button-dark:active {
+  background-color: rgba(128, 128, 128, 0.8);
+}
+
+.toggle-button-light {
+  background-color: #414141;
+  color: white;
+}
+
+.toggle-button-light:hover {
+  background-color: #292929;
+}
+
+.toggle-button-light:active {
+  background-color: #1b1b1b;
+}
+
+#toggle-placeholder, .toggle-button {
+  width: 160px;
+}
+
+.tagline {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#photo {
+  order: 1;
+  width: 49%;
+  height: auto;
+}
+
+#content {
+  order: 2;
+  width: 49%;
+  height: auto;
+}
+
+#top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.nav-container-dark {
+  border-bottom: 1px solid black;
+}
+
+.nav-container-light {
+  border-bottom: 1px solid white;
+}
+
+.active-nav-link {
+  box-sizing: border-box;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.active-nav-link-dark {
+  background-color: rgba(128, 128, 128, 0.068);
+}
+
+.active-nav-link-light {
+  background-color: #414141;
+}
+
+.nav-link {
+  height: 2rem;
+  width: calc(100% / 4);
+  padding: auto;
+  line-height: 2rem;
+  font-size: 0.8rem;
+  text-align: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.nav-link-dark {
+  color: black;
+}
+
+.nav-link-light {
+  color: white;
+}
+
+.nav-link-dark:hover {
+  color: black;
+  border-bottom-color: black;
+  background-color: rgba(128, 128, 128, 0.068);
+}
+
+.nav-link-light:hover {
+  color: white;
+  border-bottom-color: white;
+  background-color: #414141;
+}
+
+.nav-link:hover {
+  box-sizing: border-box;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+
+@media only screen and
+  (max-width: 800px) {
+    #top {
+      flex-wrap: wrap;
+    }
+    #photo {
+      order: 2;
+      width: 100%;
+    }
+    #content {
+      order: 1;
+      width: 100%;
+    }
+
+    .body {
+      width: 85%;
+    }
 }
