@@ -211,6 +211,9 @@ a {
 
 .fade-enter.fade-enter-active {
   opacity: 1;
+  -webkit-transition: opacity 250ms ease-in;
+  -moz-transition: opacity 250ms ease-in;
+  -o-transition: opacity 250ms ease-in;
   transition: opacity 250ms ease-in;
 }
 
