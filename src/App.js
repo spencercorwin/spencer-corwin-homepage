@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Redirect, Switch, NavLink } from 'react-router-dom';
+import { MemoryRouter, Route, Redirect, Switch, NavLink } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import ReactGA from 'react-ga';
 import './app.css';
@@ -17,15 +17,15 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      dark: false,
-      contributions: '...loading...',
-      score: '...loading...',
-      rank: '...loading...',
-      js: '...loading...',
-      jsscore: '...loading...',
-      python: '...loading...',
-      pythonscore: '...loading...',
-      reputation: '...loading...'
+      dark: true,
+      contributions: '409', //'...loading...',
+      score: '224', //'...loading...',
+      rank: '6 kyu', //'...loading...'
+      js: '7 kyu', //'...loading...',
+      jsscore: '68', //'...loading...',
+      python: '6 kyu', //'...loading...',
+      pythonscore: '177', //'...loading...',
+      reputation: '26' //'...loading...'
     }
     this.toggleDarkMode = this.toggleDarkMode.bind(this);
     ReactGA.initialize('UA-128636931-1');
@@ -55,7 +55,7 @@ class App extends Component {
         document.getElementsByTagName('html')[0].style.background = '#121212';
       }
     }
-    fetch('http://urlreq.appspot.com/req?method=GET&url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2Fscorwin')
+    fetch('http://urlreq.appspot.com/req?method=GET&url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2Fscorwin') //https://www.codewars.com/api/v1/users/spencercorwin
       .then(res => res.json())
       .then(data => {
         this.setState({
@@ -67,7 +67,7 @@ class App extends Component {
           pythonscore: data.ranks.languages.python.score
         })
       })
-    fetch('http://urlreq.appspot.com/req?method=GET&url=https%3A%2F%2Fgithub-contributions-api.herokuapp.com%2Fspencercorwin%2Fcount')
+    fetch('http://urlreq.appspot.com/req?method=GET&url=https%3A%2F%2Fgithub-contributions-api.herokuapp.com%2Fspencercorwin%2Fcount') //https://github-contributions-api.herokuapp.com/spencercorwin/count
       .then(res => res.json())
       .then(data => {
         let result = 0;
@@ -102,7 +102,7 @@ class App extends Component {
             <button className={this.state.dark ? "toggle-button toggle-button-dark" : "toggle-button toggle-button-light"} onClick={this.toggleDarkMode}>Toggle {this.state.dark ? 'Dark' : 'Light'} Mode</button>
           </div>
             <div id="top">
-              <Router>
+              <MemoryRouter>
                 <Route render={({ location }) => (
                   <div id="content">
                     <Route exact path="/" render={() => <Redirect to="/about" />} />
@@ -134,7 +134,7 @@ class App extends Component {
                     </TransitionGroup>
                   </div>
                 )} />
-              </Router>
+              </MemoryRouter>
               <div id="photo">
                 <img src={Image} alt="Spencer Corwin in Cartagena, Colombia"/>
               </div>
