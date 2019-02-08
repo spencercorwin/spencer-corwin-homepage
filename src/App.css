@@ -55,7 +55,7 @@ html {
   padding: 0;
   margin: 0;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: normal;
   border-radius: 0;
   border: none;
 }
