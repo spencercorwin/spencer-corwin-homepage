@@ -98,7 +98,7 @@ class App extends Component {
           <h1 id="h1-title">Spencer M. Corwin</h1>
           <div className="tagline-container">
             <div id="toggle-placeholder"></div>
-            <p className="tagline">Front-End Web Developer For Hire</p>
+            <p className="tagline">Full-Stack Web Developer For Hire</p>
             <button className={this.state.dark ? "toggle-button toggle-button-dark" : "toggle-button toggle-button-light"} onClick={this.toggleDarkMode}>Toggle {this.state.dark ? 'Dark' : 'Light'} Mode</button>
           </div>
             <div id="top">
