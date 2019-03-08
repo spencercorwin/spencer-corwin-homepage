@@ -7,6 +7,8 @@ const Projects = () => {
             <h3 className="project-title">Personal Projects</h3>
             <ul className="list-style">
                 <li><a href="https://digidex-app.herokuapp.com">Digidex App (ReactJS, React Router, ExpressJS, MongoDB)</a></li>
+                <li><a href="https://popularity-contest.herokuapp.com/">Popularity Contest App (NextJS, D3JS, ReactJS, ExpressJS, MongoDB, Typescript, SSR)</a></li>
+                <li><a href="https://github.com/spencercorwin/command-line-games">Command Line Tic-Tac-Toe and Connect Four (Typescript)</a></li>
                 <li><a href="https://twitter.com/dailygoldquotes">Daily Gold and Silver Quotes (NodeJS Web Scraper and Twitter Bot)</a></li>
                 <li><a href="https://spencercorwin.com/to-do-app">To Do App (ReactJS)</a></li>
                 <li><a href="https://spencercorwin.com/bitch-better-have-my-coffee">"Bitch Better Have My Coffee" Podcast Website (GatsbyJS)</a></li>

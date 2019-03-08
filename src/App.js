@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { MemoryRouter, Route, Redirect, Switch, NavLink } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import ReactGA from 'react-ga';
-import './app.css';
+import './App.css';
 import Image from './assets/guatape-min.jpeg';
 import Projects from './projects';
 import AboutMe from './aboutme';
@@ -18,7 +18,7 @@ class App extends Component {
     super(props);
     this.state = {
       dark: true,
-      contributions: '409', //'...loading...',
+      contributions: '473', //'...loading...',
       score: '224', //'...loading...',
       rank: '6 kyu', //'...loading...'
       js: '7 kyu', //'...loading...',
