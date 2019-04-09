@@ -5,6 +5,11 @@ const Blog = () => {
     return(
         <div>
             <div>
+                <h3 className="blog-title"><a href="https://spencercorwin.com/blog/6/how-to-create-a-mind/">How to Create a Mind</a></h3>
+                <h6 className="blog-date">April 05, 2019</h6>
+                <p className="blog-preview">“A computer would deserve to be called intelligent if it could deceive a human into believing that it was human.” — Alan Turing In my first…</p>
+            </div>
+            <div>
                 <h3 className="blog-title"><a href="https://spencercorwin.com/blog/5/digidex-reflections/">How I Built My First Full-Stack Web Application</a></h3>
                 <h6 className="blog-date">January 31, 2019</h6>
                 <p className="blog-preview">As I worked on the Free Code Camp curriculum I knew I wanted to work on my own projects. I had built up a list of cool ideas that I thought…</p>

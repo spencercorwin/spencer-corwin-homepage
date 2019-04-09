@@ -16,7 +16,7 @@ const Social = (props) => {
             </div>
             <div>
                 <h4>LinkedIn</h4>
-                <p>LinkedIn Connections: 798</p>
+                <p>LinkedIn Connections: 800</p>
                 <p>Profile: <a href="https://www.linkedin.com/in/spencercorwin/">Spencer M. Corwin</a></p>
             </div>
             <div>

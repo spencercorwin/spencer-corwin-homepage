@@ -18,14 +18,14 @@ class App extends Component {
     super(props);
     this.state = {
       dark: true,
-      contributions: '473', //'...loading...',
+      contributions: '500', //'...loading...',
       score: '224', //'...loading...',
       rank: '6 kyu', //'...loading...'
       js: '7 kyu', //'...loading...',
       jsscore: '68', //'...loading...',
       python: '6 kyu', //'...loading...',
       pythonscore: '177', //'...loading...',
-      reputation: '26' //'...loading...'
+      reputation: '36' //'...loading...'
     }
     this.toggleDarkMode = this.toggleDarkMode.bind(this);
     ReactGA.initialize('UA-128636931-1');
