@@ -8,10 +8,14 @@ const Projects = () => {
             <ul className="list-style">
                 <li><a href="https://digidex-app.herokuapp.com">Digidex App (ReactJS, React Router, ExpressJS, MongoDB)</a></li>
                 <li><a href="https://popularity-contest.herokuapp.com/">Popularity Contest App (NextJS, D3JS, ReactJS, ExpressJS, MongoDB, Typescript, SSR)</a></li>
-                {/*<li><a href="https://github.com/spencercorwin/command-line-games">Command Line Tic-Tac-Toe and Connect Four (Typescript)</a></li>*/}
+                <li><a href="https://spencercorwin.com/kanban">Kanban Board (ReactJS)</a></li>
+                <li><a href="https://spencercorwin.com/calendar">Calendar Widget (ReactJS)</a></li>
+                <li><a href="https://github.com/spencercorwin/command-line-games">Command Line Tic-Tac-Toe, Connect Four, Spiral Maker (Typescript)</a></li>
+                <li><a href="https://github.com/spencercorwin/simple-web-crawler">Simple Command Line Web Cralwer</a></li>
                 <li><a href="https://twitter.com/dailygoldquotes">Daily Gold and Silver Quotes (NodeJS Web Scraper and Twitter Bot)</a></li>
                 <li><a href="https://spencercorwin.com/to-do-app">To Do App (ReactJS)</a></li>
-                <li><a href="https://spencercorwin.com/bitch-better-have-my-coffee">"Bitch Better Have My Coffee" Podcast Website (GatsbyJS)</a></li>
+                <li><a href="https://bitchbetterhavemycoffee.com">"Bitch Better Have My Coffee" Podcast Website (GatsbyJS)</a></li>
+                <li><a href="https://github.com/spencercorwin/data-structures-and-algorithms">Data Structures and Algorithms Practice</a></li>
                 <li><a href="https://spencercorwin.com/comps">Residential Comp Analysis (WIP)</a></li>
             </ul>
             <h3 className="project-title">Free Code Camp Projects</h3>

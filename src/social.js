@@ -46,6 +46,10 @@ const Social = (props) => {
                 <h4>CodePen</h4>
                 <p>Profile: <a href="https://codepen.io/spencercorwin/">@spencercorwin</a></p>
             </div>
+            <div>
+                <h4>Mozilla Development Network (MDN)</h4>
+                <p>Profile: <a href="https://developer.mozilla.org/en-US/profiles/spencercorwin">spencercorwin</a></p>
+            </div>
         </div>
     )
 }
