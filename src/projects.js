@@ -11,6 +11,11 @@ const Projects = () => (
         </a>
       </li>
       <li>
+        <a href="https://chrome.google.com/webstore/detail/instagram-unlimited/ipmehihejmhfhhieejoaclnmeoedijen">
+          "Intagram Unlimited" Chrome Extension
+        </a>
+      </li>
+      <li>
         <a href="https://twitter.com/dailygoldquotes">
           Daily Gold and Silver Quotes Twitter Bot
         </a>
