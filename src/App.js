@@ -101,7 +101,7 @@ class App extends Component {
             <div id="toggle-placeholder"></div>
             <p className="tagline">
               Software Engineer at{" "}
-              <a href="https://neotracker.io">NEO tracker</a>
+              <a href="https://neotracker.io">NEO Tracker</a>
             </p>
             <button
               className={

@@ -6,7 +6,7 @@ const AboutMe = () => (
   <div className="description">
     <p>
       I am a software engineer at{" "}
-      <a href="https://neotracker.io">NEO tracker</a>. To see my personal
+      <a href="https://neotracker.io">NEO Tracker</a>. To see my personal
       projects click <Link to="/projects">here</Link>. To see the code for any
       of these projects go to my{" "}
       <a href="https://github.com/spencercorwin">GitHub</a>. To see a more

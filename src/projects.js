@@ -11,23 +11,13 @@ const Projects = () => (
         </a>
       </li>
       <li>
-        <a href="https://chrome.google.com/webstore/detail/instagram-unlimited/ipmehihejmhfhhieejoaclnmeoedijen">
+        <a href="https://github.com/spencercorwin/instagram-unlimited">
           "Intagram Unlimited" Chrome Extension
         </a>
       </li>
       <li>
-        <a href="https://twitter.com/dailygoldquotes">
+        <a href="https://github.com/spencercorwin/twitter-bots">
           Daily Gold and Silver Quotes Twitter Bot
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/spencercorwin/corwinism-vscode-theme">
-          Custom VS Code Theme
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/spencercorwin/corwinism-zsh-theme">
-          Custom ZSH Theme
         </a>
       </li>
     </ul>
