@@ -1,16 +1,16 @@
 .project-title {
-    margin-bottom: -10px;
+  margin-bottom: -10px;
 }
 
 .list-style {
-    margin-left: -12px;
-    list-style-type: square;
+  margin-left: -12px;
+  list-style-type: square;
 }
 
 li > a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #projects {
-    padding: 0 18px;
+  padding: 0 18px;
 }

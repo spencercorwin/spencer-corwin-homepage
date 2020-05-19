@@ -2,7 +2,8 @@ html {
   width: 100%;
   height: 100%;
   margin-bottom: 60px;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .body-container {
@@ -93,7 +94,8 @@ html {
   background-color: #1b1b1b;
 }
 
-#toggle-placeholder, .toggle-button {
+#toggle-placeholder,
+.toggle-button {
   width: 160px;
 }
 
@@ -175,10 +177,10 @@ a {
   text-align: center;
   box-sizing: border-box;
   text-decoration: none;
-  -webkit-transition: all .15s ease-in-out;
-  -moz-transition: all .15s ease-in-out;
-  -o-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .nav-link-dark {
@@ -205,10 +207,10 @@ a {
   box-sizing: border-box;
   border-bottom-style: solid;
   border-bottom-width: 2px;
-  -webkit-transition: all .15s ease-in-out;
-  -moz-transition: all .15s ease-in-out;
-  -o-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .fade-enter {
@@ -224,21 +226,20 @@ a {
   transition: opacity 250ms ease-in;
 }
 
-@media only screen and
-  (max-width: 800px) {
-    #top {
-      flex-wrap: wrap;
-    }
-    #photo {
-      order: 2;
-      width: 100%;
-    }
-    #content {
-      order: 1;
-      width: 100%;
-    }
+@media only screen and (max-width: 800px) {
+  #top {
+    flex-wrap: wrap;
+  }
+  #photo {
+    order: 2;
+    width: 100%;
+  }
+  #content {
+    order: 1;
+    width: 100%;
+  }
 
-    .body {
-      width: 85%;
-    }
+  .body {
+    width: 85%;
+  }
 }

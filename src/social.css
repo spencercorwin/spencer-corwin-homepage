@@ -1,21 +1,21 @@
 #github-calendar {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .line-holder {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: flex-start;
-    margin-bottom: -14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-start;
+  margin-bottom: -14px;
 }
 
 .line-holder > p {
-    width: calc(100% / 3);
+  width: calc(100% / 3);
 }
 
 .profile-group h4 {
-    margin-bottom: -6px;
+  margin-bottom: -6px;
 }
