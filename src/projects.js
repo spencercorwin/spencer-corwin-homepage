@@ -6,9 +6,8 @@ const Projects = () => (
     <h3 className='project-title'>Personal Projects</h3>
     <ul className='list-style'>
       <li>
-        <a href='https://populariz-frontend.herokuapp.com/'>
-          Popularity Contest App
-        </a>
+        <a href='https://populariz-frontend.herokuapp.com/'>"Populariz" App</a>{' '}
+        (<a href='https://github.com/spencercorwin/populariz'>GitHub</a>)
       </li>
       <li>
         <a href='https://github.com/spencercorwin/instagram-unlimited'>
@@ -16,9 +15,10 @@ const Projects = () => (
         </a>
       </li>
       <li>
-        <a href='https://github.com/spencercorwin/twitter-bots'>
+        <a href='https://twitter.com/dailygoldquotes'>
           Daily Gold and Silver Quotes Twitter Bot
-        </a>
+        </a>{' '}
+        (<a href='https://github.com/spencercorwin/twitter-bots'>GitHub</a>)
       </li>
     </ul>
   </div>

@@ -9,15 +9,13 @@ import {
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import ReactGA from 'react-ga';
 import './App.css';
-import Image from './assets/guatape-min.jpeg';
+import Image from './assets/spencercorwin.jpeg';
 import Projects from './projects';
 import AboutMe from './aboutme';
 // import Resume from './resume';
+// import Contact from './contact';
 import Social from './social';
 import Testimonials from './testimonials';
-// import FCC from './fcc';
-// import Contact from './contact';
-// import Blog from './blog';
 
 class App extends Component {
   constructor(props) {
@@ -193,8 +191,6 @@ class App extends Component {
                       </NavLink>
                     </div>
                     {/* <div className={this.state.dark ? "nav-container nav-container-dark" : "nav-container nav-container-light"}>
-                      <NavLink className={this.state.dark ? "nav-link nav-link-dark" : "nav-link nav-link-light"} activeClassName={this.state.dark ? "active-nav-link active-nav-link-dark" : "active-nav-link active-nav-link-light"} to="/blog-posts">Blog Posts</NavLink>
-                      <NavLink className={this.state.dark ? "nav-link nav-link-dark" : "nav-link nav-link-light"} activeClassName={this.state.dark ? "active-nav-link active-nav-link-dark" : "active-nav-link active-nav-link-light"} to="/fcc">Certification</NavLink>
                       <NavLink className={this.state.dark ? "nav-link nav-link-dark" : "nav-link nav-link-light"} activeClassName={this.state.dark ? "active-nav-link active-nav-link-dark" : "active-nav-link active-nav-link-light"} to="/resume">Résumé</NavLink>
                       <NavLink className={this.state.dark ? "nav-link nav-link-dark" : "nav-link nav-link-light"} activeClassName={this.state.dark ? "active-nav-link active-nav-link-dark" : "active-nav-link active-nav-link-light"} to="/contact">Contact</NavLink>
                     </div> */}
@@ -227,8 +223,6 @@ class App extends Component {
                             component={Testimonials}
                           />
                           {/* <Route path="/resume" component={Resume} />
-                          <Route path="/blog-posts" component={Blog} />
-                          <Route path="/fcc" component={FCC} />
                           <Route path="/contact" render={() => <Contact dark={this.state.dark} />} /> */}
                         </Switch>
                       </CSSTransition>
