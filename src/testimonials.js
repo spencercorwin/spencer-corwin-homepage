@@ -12,7 +12,7 @@ const Testimonials = () => (
       “Spencer, Thank you so much for helping me with my spreads and renewals.
       You always have such a great positive attitude. I am so impressed with
       your professionalism and strong work ethic. We are lucky to have you as
-      part of the SWB lending team!”{' '}
+      part of the team!”{' '}
       <span className='testimonial-author'>-Former Co-Worker</span>
     </p>
     <p>
